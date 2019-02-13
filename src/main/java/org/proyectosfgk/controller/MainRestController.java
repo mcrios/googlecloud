@@ -19,7 +19,7 @@ public class MainRestController {
 	@Autowired
 	private UsuariosService service;
 
-	@GetMapping(value = "/hello")
+	@GetMapping(value = "/")
 	public String hello() {
 		return "hello";
 	}
